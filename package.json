@@ -10,10 +10,12 @@
   "author": "jstrangfeld@dvrpc.org",
   "license": "CC0-1.0",
   "devDependencies": {
-    "@babel/core": "^7.0.0-beta.32",
-    "@babel/polyfill": "^7.0.0-beta.32",
-    "@babel/preset-env": "^7.0.0-beta.32",
-    "babel-loader": "^8.0.0-beta.0",
-    "webpack": "^3.8.1"
+    "@babel/core": "^7.9.0",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "core-js": "^3.6.4",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
   }
 }

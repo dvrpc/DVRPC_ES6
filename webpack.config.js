@@ -1,4 +1,5 @@
 module.exports = {
+  mode: 'production',
   entry: './Main.js',
   output: {
     filename: 'subpage.js'
@@ -13,7 +14,8 @@ module.exports = {
           options: {
             presets: [
               ['@babel/env', {
-                'useBuiltIns': 'entry'
+                'useBuiltIns': 'entry',
+                'corejs': 3
               }]
             ]
           }
